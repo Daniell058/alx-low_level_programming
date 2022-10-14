@@ -6,11 +6,11 @@
  *Return: always 0
 */
 
-char main(void)
+int main(void)
 {
-    char letter = 'A';
+    char letter;
 
-    for (letter; letter <= 'Z'; letter++)
+    for (letter = 'A'; letter <= 'Z'; letter++)
     {
         putchar(letter);
     }
