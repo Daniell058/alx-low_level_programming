@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_sign - prints the sign of a number
  *@n: Must be of type int
@@ -24,5 +25,5 @@ int print_sign(int n)
 		_putchar ('-');
 		return (-1);
 	}
-	return (0)
+	return (0);
 }
