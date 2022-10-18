@@ -1,6 +1,3 @@
-#include "main.h"
-#include <unistd.h>
-
 /**
  *main - Entry point
  *Description: prints something fun
