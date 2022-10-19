@@ -2,12 +2,11 @@
 #include <stdio.h>
 
 /**
- *multiples_of_three - get the sum of all multiples of 3 and 5 below 1024
- *main - prints multiple_of_three
+ *main - prints the sum of all multiples of three and five
  *Return: Always void
 */
 
-void multiples_of_three(void)
+int main(void)
 {
 	int i;
 	int sum;
@@ -19,10 +18,6 @@ void multiples_of_three(void)
 			sum += i;
 	}
 	printf("%d\n", sum);
-}
-
-int main(void)
-{
-	multiples_of_three();
 	return (0);
 }
+
