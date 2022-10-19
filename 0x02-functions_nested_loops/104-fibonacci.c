@@ -19,7 +19,7 @@ int main(void)
 		num3 = num1 + num2;
 		num1 = num2;
 		num2 = num3;
-		printf(", %lu", num1);
+		printf(", %i", num1);
 	}
 	printf("\n");
 	return (0);
