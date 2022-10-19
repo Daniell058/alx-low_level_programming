@@ -13,7 +13,7 @@ int main(void)
 
 	num1 = 1;
 	num2 = 2;
-	printf("%lu", num1);
+	printf("%i", num1);
 	for (i = 2; i <= 98; i++)
 	{
 		num3 = num1 + num2;
