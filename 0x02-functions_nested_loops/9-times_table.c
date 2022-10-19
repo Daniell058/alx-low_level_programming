@@ -18,13 +18,13 @@ void times_table(void)
         {
             int times = (i * j);
 
-            printf("%d", times);
+            printf("%2d", times);
             if (j < 9)
             {
-                _putchar(',');
-                _putchar(' ');
+                printf(',');
+                printf(' ');
             }
         }
-        _putchar('\n');
+        printf('\n');
     }
 }
