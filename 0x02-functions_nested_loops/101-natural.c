@@ -20,3 +20,8 @@ void multiples_of_three(void)
 	}
 	printf("%d", sum);
 }
+
+int main(void)
+{
+	multiples_of_three();
+}
