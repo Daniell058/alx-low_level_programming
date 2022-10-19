@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	unsigned long num1, num2, num3;
-	unsigned int i;
+	long num1, num2, num3;
+	int i;
 
 	num1 = 1;
 	num2 = 2;
 	printf("%lu", num1);
-	for (i = 2; i < 98; i++)
+	for (i = 2; i <= 98; i++)
 	{
 		num3 = num1 + num2;
 		num1 = num2;
