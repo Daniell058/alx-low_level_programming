@@ -17,9 +17,9 @@ void times_table(void)
         {
             int times = (i * j);
 
-            printf("%d", times);
+            printf("%2d", times);
             if (j < 9)
-                printf(", ");
+                printf(",");
         }
         if (i < 9)
             printf("\n");
