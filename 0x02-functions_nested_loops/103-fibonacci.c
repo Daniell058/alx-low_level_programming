@@ -11,7 +11,7 @@ int main(void)
 {
 	long num1, num2, num3;
 	int i;
-	llong sum;
+	long sum;
 
 	num1 = 1;
 	num2 = 2;
