@@ -15,6 +15,7 @@ int main(void)
 
 	num1 = 1;
 	num2 = 2;
+	sum = 0;
 	for (i = 2; i <= 50; i++)
 	{
 		num3 = num1 + num2;
