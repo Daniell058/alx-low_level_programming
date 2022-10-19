@@ -24,4 +24,5 @@ void multiples_of_three(void)
 int main(void)
 {
 	multiples_of_three();
+	return (0);
 }
