@@ -8,18 +8,18 @@
 
 int main(void)
 {
-	long num1, num2, num3;
+	long long num1, num2, num3;
 	int i;
 
 	num1 = 1;
 	num2 = 2;
-	printf("%ld", num1);
+	printf("%lu", num1);
 	for (i = 2; i <= 98; i++)
 	{
 		num3 = num1 + num2;
 		num1 = num2;
 		num2 = num3;
-		printf(", %ld", num1);
+		printf(", %lu", num1);
 	}
 	printf("\n");
 	return (0);
