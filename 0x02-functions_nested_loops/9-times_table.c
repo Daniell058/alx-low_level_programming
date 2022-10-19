@@ -21,10 +21,10 @@ void times_table(void)
             printf("%2d", times);
             if (j < 9)
             {
-                printf(',');
-                printf(' ');
+                printf(",");
+                printf(" ");
             }
         }
-        printf('\n');
+        printf("\n");
     }
 }
