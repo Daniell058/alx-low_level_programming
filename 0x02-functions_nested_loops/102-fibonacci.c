@@ -22,6 +22,6 @@ int main(void)
 		num2 = num3;
 		printf(" ,%lu", num1);
 	}
-	printf("\n")
+	printf("\n");
 	return (0);
 }
