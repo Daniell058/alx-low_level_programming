@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	long num1, num2, num3;
+	unsigned long num1, num2, num3;
 	int i;
-	long sum;
+	unsigned long sum;
 
 	num1 = 1;
 	num2 = 2;
@@ -23,6 +23,6 @@ int main(void)
 		if ((num1 < 4000000) && (num1 % 2 == 0))
 			sum += num1;
 	}
-	printf("%li\n", sum);
+	printf("%lu\n", sum);
 	return (0);
 }
