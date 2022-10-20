@@ -13,7 +13,7 @@ int main(void)
 
 	prod = 1;
 
-	for (i = 1; i <= 99, i++)
+	for (i = 1; i <= 99; i++)
 	{
 		while (n % i == 0)
 		{
