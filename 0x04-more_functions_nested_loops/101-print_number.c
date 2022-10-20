@@ -10,7 +10,7 @@
 
 void print_number(int n)
 {
-	int last, digit;
+	int last;
 
 	if (n == 0)
 		return;
