@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int i, j, prod;
+	int i, prod;
 
 	unsigned long n = 612852475143;
 
@@ -21,7 +21,7 @@ int main(void)
 			n = n / i;
 		}
 	}
-	printf("%d", prod);
+	printf("%d\n", prod);
 	return (0);
 }
 
