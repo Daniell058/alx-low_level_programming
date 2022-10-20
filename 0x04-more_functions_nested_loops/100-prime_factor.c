@@ -7,13 +7,13 @@
 
 int main(void)
 {
-	int i, j, prod;
+	int i, prod;
 
 	unsigned long n = 612852475143;
 
 	prod = 1;
 
-	for (i = 1; i <= 99, i++)
+	for (i = 1; i <= 99; i++)
 	{
 		while (n % i == 0)
 		{
@@ -21,7 +21,7 @@ int main(void)
 			n = n / i;
 		}
 	}
-	printf("%d", prod);
+	printf("%d\n", prod);
 	return (0);
 }
 
