@@ -7,24 +7,24 @@
 
 int main(void)
 {
-    int i;
-    unsigned long prod, pass;
+	int i;
+	unsigned long prod, pass;
 
-    unsigned long n = 612852475143;
+	unsigned long n = 612852475143;
 
-    pass = n;
+	pass = n;
 
-    prod = 1;
+	prod = 1;
 
-    for (i = 2; i <= 99; i++)
-    {
-        while (n % i == 0)
-        {
-            prod *= i;
-            n = n / i;
-        }
-    }
-    printf("%li\n", (pass / prod));
-    return (0);
+	for (i = 2; i <= 99; i++)
+	{
+		while (n % i == 0)
+		{
+			prod *= i;
+			n = n / i;
+		}
+	}
+	printf("%li\n", (pass / prod));
+	return (0);
 }
 
