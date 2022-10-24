@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *print_array - printts array to a specific point
@@ -19,4 +20,5 @@ void print_array(int *a, int n)
 			printf(", ");
 		}
 	}
+	printf("\n");
 }
