@@ -10,14 +10,14 @@
 
 void puts_half(char *str)
 {
-    int len = (strlen(str) - 1);
+    int len = (strlen(str));
     int i = 0;
 
     if (len % 2 != 0)
     {
         int n = (len - 1) / 2;
 
-        for (i = n; i <= len; i++)
+        for (i = n; i < len; i++)
         {
             putchar(str[i]);
         }
@@ -28,7 +28,7 @@ void puts_half(char *str)
     {
         int n = len / 2;
 
-        for (i = n; i <= len; i++)
+        for (i = n; i < len; i++)
         {
             putchar(str[i]);
         }
