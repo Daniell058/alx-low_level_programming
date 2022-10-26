@@ -9,22 +9,22 @@
 */
 
 
-char *string_toupper(char *s)
+char *string_toupper(char *str)
 {
 	int i, j;
 
-	while (s[i] != '\0')
+	while (str[i] != '\0')
 	{
 		i++;
 	}
 
 	for (j = 0; j <= i; j++)
 	{
-		if (s[j] >= 'a' && s[j] <= 'z')
+		if (str[j] >= 'a' && str[j] <= 'z')
 		{
 
-			s[j] = s[j] - 32;
+			str[j] = str[j] - 32;
 		}
 	}
-	return (s);
+	return (str);
 }
