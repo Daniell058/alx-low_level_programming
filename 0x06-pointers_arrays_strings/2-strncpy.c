@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 
 /**
  *_strncpy - same as built in strncpy
@@ -15,23 +16,5 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int j = 0;
-	int k = 0;
-	int i = 0;
-
-	while (dest[i] != '\0')
-	{
-		i++;
-	}
-
-	while (src[j] != '\0')
-	{
-		j++;
-	}
-
-	for (k = 0; k < n; k++)
-	{
-		dest[k] = src[k];
-	}
-	return (dest);
+	return (strcpy(dest, src, n));
 }
