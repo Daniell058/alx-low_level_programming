@@ -9,9 +9,9 @@
 */
 
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
-	int i, j, k;
+	int i, j;
 
 	while (s[i] != '\0')
 	{
