@@ -18,7 +18,7 @@ char *string_toupper(char *str)
 		i++;
 	}
 
-	for (j = 0; j <= i; j++)
+	for (j = 0; j < i; j++)
 	{
 		if (str[j] >= 'a' && str[j] <= 'z')
 		{
