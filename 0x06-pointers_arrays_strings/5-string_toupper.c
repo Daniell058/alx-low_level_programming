@@ -5,7 +5,6 @@
  *string_toupper - converts lowercase to uppercase
  *@str: string to be converted
  *Return: converted string
- *
 */
 
 
