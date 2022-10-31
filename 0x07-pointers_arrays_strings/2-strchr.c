@@ -1,5 +1,4 @@
 #include "main.h"
-#define NULL 0
 
 /**
  *_strchr - mimics built in strchr
@@ -20,5 +19,5 @@ char *_strchr(char *s, char c)
 		}
 		j++;
 	}
-	return (NULL);
+	return (0);
 }
