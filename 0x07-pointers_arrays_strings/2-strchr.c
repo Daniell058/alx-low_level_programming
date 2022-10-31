@@ -1,4 +1,5 @@
 #include "main.h"
+#define NULL 0
 
 /**
  *_strchr: mimics buik=lt in strchr
