@@ -2,7 +2,7 @@
 #define NULL 0
 
 /**
- *_strchr: mimics buik=lt in strchr
+ *_strchr - mimics built in strchr
  *@s: the string
  *@c: charactter to be found
  *Return: NULL or the reamaining string
@@ -16,7 +16,7 @@ char *_strchr(char *s, char c)
 	{
 		if (s[j] == c)
 		{
-			return (&s[j]) ;
+			return (&s[j]);
 		}
 		j++;
 	}
