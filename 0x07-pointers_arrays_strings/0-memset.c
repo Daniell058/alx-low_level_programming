@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  *_memset - mimics the built in memset
