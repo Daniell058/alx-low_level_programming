@@ -21,7 +21,6 @@ int prime_no_checker(int n, int a)
 		return (0);
 	}
 
-
 	return (1);
 }
 
@@ -34,7 +33,7 @@ int prime_no_checker(int n, int a)
 
 int is_prime_number(int n)
 {
-	if (prime_no_checker(n, 2))
+	if (prime_no_checker(n, 1))
 	{
 		return (1);
 	}
