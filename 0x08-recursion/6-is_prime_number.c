@@ -11,7 +11,7 @@
 
 int prime_no_checker(int n, int a)
 {	
-	if (!(a > (n / 2)))
+	if ((a < (n / 2)))
 	{
 		prime_no_checker(n, a + 1);
 	}
