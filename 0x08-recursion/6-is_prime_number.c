@@ -9,20 +9,20 @@
 
 
 
-
 int prime_no_checker(int n, int a)
 {
-	if (a == n / 2)
-	{
-		return (1);
-	}
 
-	if (n % a == 0)
+	if ((n % a) == 0)
 	{
 		return (0);
 	}
 
-	prime_no_checker(n, a + 1);
+	if (!(a > (n / 2)))
+	{
+		prime_no_checker(n, a + 1);
+	}
+
+	return (1);
 }
 
 /**
