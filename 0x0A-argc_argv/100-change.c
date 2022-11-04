@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define J 5
 
 /**
  *main - prints the minimum number of cents
