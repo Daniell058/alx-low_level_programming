@@ -6,10 +6,16 @@
  *@argc: no of arguments
  *@argv: arguments array
  *Return:always 0
- */
+*/
 
 int main(int argc, char *argv[])
 {
+	int change[] = {25, 10, 5, 2, 1};
+	int cents = atoi(argv[1]);
+	int i;
+	int sum = 0;
+
+
 	if (argc != 2)
 	{
 		puts("Error");
@@ -22,10 +28,6 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	int change[] = {25, 10, 5, 2, 1};
-	int cents = atoi(argv[1]);
-	int i;
-	int sum = 0;
 
 	for (i = 0; i < 5; i++)
 	{
