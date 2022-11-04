@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  *main - prints the name of a c executable
@@ -7,7 +8,7 @@
  *Return: void
 */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {	(void) argc;
 	printf("%s", argv[0]);
 	return (0);
