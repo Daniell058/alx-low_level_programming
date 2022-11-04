@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 /**
  *main - prints the sum of the arguments
@@ -13,14 +12,23 @@ int main(int argc, char *argv[])
 {
 	int i;
 	int sum = 0;
+	int count = 0;
 
-	if (argc == 1)
+	for (i = 1; i < argc; i++)
 	{
-		printf("%d\n", sum);
+		if (*argv[i] >= '0' && *argv[i] <= '9')
+			count++;
+	}
+
+	if (count == 0)
+	{
+		printf("%d\n", 0);
+		return (0);
 	}
 
 	else
 	{
+
 		for (i = 1; i < argc; i++)
 		{
 			char *j = argv[i];
@@ -34,6 +42,7 @@ int main(int argc, char *argv[])
 				sum += atoi(argv[i]);
 		}
 	}
+
 	if (sum > 0)
 		printf("%d\n", sum);
 
