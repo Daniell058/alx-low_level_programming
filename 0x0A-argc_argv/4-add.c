@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 
 			if (*j < '0' || *j > '9')
 			{
-				puts("Error");
+				printf("Error\n");
 				return (1);
 			}
 			else
